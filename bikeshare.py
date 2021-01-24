@@ -15,7 +15,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello User! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
 
@@ -64,7 +64,7 @@ def time_stats(df):
     print('-'*40)
 
 
-def station_stats(df):
+def popular_station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -124,7 +124,7 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
+        popular_station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
 
