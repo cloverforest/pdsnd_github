@@ -7,7 +7,7 @@ The _README.md_ was created and modified in January 2021
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Use of Python to understand US bikeshare data. Calculation of statistics and creation of an interactive environment where user chooses the data and filter for a dataset to analyze.
 
 ### Files used
 Include the files used
